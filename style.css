@@ -1,0 +1,119 @@
+* {
+  font-family: 'Droid Sans';
+}
+body {
+  background-color: DarkSlateGray;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: Cousine;
+  display: inline-block;
+}
+div.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 670px;
+}
+h1 {
+  font-size: 3.2em;
+  padding: 6px 20px;
+  color: OrangeRed;
+  box-shadow: 10px 10px 0 OrangeRed;
+  background-color: FloralWhite;
+  border-radius: 6px;
+  top: 300px;
+  left: 350px;
+  position: relative;
+}
+header {
+  background-image: url("made-in.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  height: 550px;
+  border-bottom: 10px solid OrangeRed;
+}
+.section h2 {
+  font-size: 3em;
+  padding: 4px 18px;
+  box-shadow: 10px 10px 0;
+  background-color: FloralWhite;
+  border-radius: 6px;
+  position: relative;
+}
+.content {
+  padding-top: 50px;
+  padding-bottom: 140px;
+  font-size: 1.2em;
+  color: FloralWhite;
+}
+.section {
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: solid;
+  border-width: 6px 0 10px 0;
+}
+div.section_1 {
+  background-image: url("OwfYyiJXQ6qddLgTOBGX_Ariana Prestes photos (4).jpg");
+  background-position: center center;
+  border-color: SeaGreen;
+}
+h2#section_1 {
+  color: SeaGreen;
+  box-shadow: 10px 10px 0 SeaGreen;
+  top: 90px;
+  left: 190px;
+}
+div.section_2 {
+  background-image: url("in-out.jpg");
+  background-position: top center;
+  border-color: Tomato;
+}
+h2#section_2 {
+  color: Tomato;
+  box-shadow: 10px 10px 0 Tomato;
+  top: 10px;
+  left: 10px;
+}
+div.section_3 {
+  background-image: url("level.jpg");
+  background-position: center center;
+  border-color: DarkOliveGreen;
+}
+h2#section_3 {
+  color: DarkOliveGreen;
+  box-shadow: 10px 10px 0 DarkOliveGreen;
+  top: 100px;
+  left: 100px;
+}
+div.section_4 {
+  background-image: url("EpBHfTrtRLa2PCPwuXkQ_thessaloniki_port.jpg");
+  background-position: top center;
+  border-color: Crimson;
+}
+h2#section_4 {
+  color: Crimson;
+  box-shadow: 10px 10px 0 Crimson;
+  top: 200px;
+  left: 20px;
+}
+footer {
+  border-top: 6px solid Fuchsia;
+  height: 120px;
+  text-align: center;
+}
+footer a {
+  color: FloralWhite;
+  text-decoration: none;
+}
+footer ul {
+  list-style: none;
+}
+footer li {
+  display: inline-block;
+}
