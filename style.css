@@ -45,6 +45,13 @@ header {
   border-radius: 6px;
   position: relative;
 }
+h3 {
+  font-size: 1.4em;
+  background-color: FloralWhite;
+  padding: 6px 12px;
+  margin-bottom: 12px;
+  margin-top: 26px;
+}
 .content {
   padding-top: 50px;
   padding-bottom: 140px;
@@ -69,6 +76,9 @@ h2#section_1 {
   top: 90px;
   left: 190px;
 }
+.content_1 h3 {
+  color: SeaGreen;
+}
 div.section_2 {
   background-image: url("in-out.jpg");
   background-position: top center;
@@ -79,6 +89,9 @@ h2#section_2 {
   box-shadow: 10px 10px 0 Tomato;
   top: 10px;
   left: 10px;
+}
+.content_2 h3 {
+  color: Tomato;
 }
 div.section_3 {
   background-image: url("level.jpg");
@@ -91,6 +104,9 @@ h2#section_3 {
   top: 100px;
   left: 100px;
 }
+.content_3 h3 {
+  color: DarkOliveGreen;
+}
 div.section_4 {
   background-image: url("EpBHfTrtRLa2PCPwuXkQ_thessaloniki_port.jpg");
   background-position: top center;
@@ -101,6 +117,9 @@ h2#section_4 {
   box-shadow: 10px 10px 0 Crimson;
   top: 200px;
   left: 20px;
+}
+.content_4 h3 {
+  color: Crimson;
 }
 footer {
   border-top: 6px solid Fuchsia;
