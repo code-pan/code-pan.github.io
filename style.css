@@ -1,6 +1,9 @@
 * {
   font-family: 'Droid Sans';
 }
+a {
+  text-decoration: none;
+}
 body {
   background-color: DarkSlateGray;
   padding: 0;
@@ -52,7 +55,11 @@ h3 {
   margin-bottom: 12px;
   margin-top: 26px;
 }
-.content {
+.intro h3 {
+  color: OrangeRed;
+}
+.content,
+a {
   padding-top: 50px;
   padding-bottom: 140px;
   font-size: 1.2em;
@@ -122,17 +129,22 @@ h2#section_4 {
   color: Crimson;
 }
 footer {
-  border-top: 6px solid Fuchsia;
-  height: 120px;
+  border-top: 4px solid GoldenRod;
+  padding: 1em;
   text-align: center;
 }
 footer a {
-  color: FloralWhite;
-  text-decoration: none;
+  color: GoldenRod;
+  font-weight: bold;
 }
 footer ul {
   list-style: none;
 }
+footer ul :first-child {
+  border-left: none;
+}
 footer li {
   display: inline-block;
+  padding: 4px 16px;
+  border-left: 4px solid GoldenRod;
 }
