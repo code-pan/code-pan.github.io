@@ -48,6 +48,17 @@ header {
   border-radius: 6px;
   position: relative;
 }
+.navigation {
+  top: 10px;
+  position: absolute;
+}
+.navigation a {
+  color: OrangeRed;
+  background-color: FloralWhite;
+  display: inline-block;
+  padding: 4px 8px;
+  margin: 12px;
+}
 h3 {
   font-size: 1.4em;
   background-color: FloralWhite;
@@ -86,6 +97,9 @@ h2#section_1 {
 .content_1 h3 {
   color: SeaGreen;
 }
+a.section_1 {
+  color: SeaGreen;
+}
 div.section_2 {
   background-image: url("in-out.jpg");
   background-position: top center;
@@ -98,6 +112,9 @@ h2#section_2 {
   left: 10px;
 }
 .content_2 h3 {
+  color: Tomato;
+}
+a.section_2 {
   color: Tomato;
 }
 div.section_3 {
@@ -114,6 +131,9 @@ h2#section_3 {
 .content_3 h3 {
   color: DarkOliveGreen;
 }
+a.section_3 {
+  color: DarkOliveGreen;
+}
 div.section_4 {
   background-image: url("EpBHfTrtRLa2PCPwuXkQ_thessaloniki_port.jpg");
   background-position: top center;
@@ -126,6 +146,9 @@ h2#section_4 {
   left: 20px;
 }
 .content_4 h3 {
+  color: Crimson;
+}
+a.section_4 {
   color: Crimson;
 }
 footer {
