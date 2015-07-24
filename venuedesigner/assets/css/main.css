@@ -1,0 +1,18 @@
+#scene, button {
+    border: 1px solid lightgrey;
+}
+button {
+    background-color: white;
+    color: #666;
+}
+button:active {
+    color: red;
+}
+button:disabled {
+    color: lightgrey;
+}
+#scene {
+    display: block;
+    height: 700px;
+    width: 900px;
+}
