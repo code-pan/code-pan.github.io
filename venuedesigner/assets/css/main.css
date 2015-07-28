@@ -16,3 +16,8 @@ button:disabled {
     height: 700px;
     width: 900px;
 }
+.selector {
+    fill-opacity: 0.2;
+    fill: #24b;
+    stroke: #24b;
+}
