@@ -2,13 +2,27 @@
 <html>
   <head>
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="bundle.js"></script>
   </head>
   <body>
-    <div id="toolbar"></div>
-    <svg id="scene">
-      <desc>Graphical Venue Designer</desc>
-    </svg>
-    <div id="sidebar"></div>
+    <div class="container">
+      <h1 class="text-center">Venue Designer</h1>
+      <div class="row center-block">
+        <div id="toolbar"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <svg id="scene">
+            <desc>Graphical Venue Designer</desc>
+          </svg>
+        </div>
+        <div class="col-md-2">
+          <div id="sidebar_right"></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
