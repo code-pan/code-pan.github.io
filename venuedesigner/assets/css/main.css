@@ -22,5 +22,7 @@
     stroke: #ddf;
 }
 .seat circle.selection.selected {
-    stroke: #88c;
+    stroke: #C097CA;
+    stroke-dasharray: 3, 3;
+    stroke-width: 2;
 }
